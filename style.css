@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.logo{
+}
+.background-video video{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -20;
+}
+.logo img{
+width: 300px;
+height: 100px;
+object-fit: cover;
+}
+.logo img:hover{
+    width: 310px;
+height: 105px;
+border: 5px solid crimson;
+background: crimson;
+padding: 5px;
+border-radius: 5px;
+}
+
+.navbar ul{
+    float: right;
+    margin-top: -70px;
+    
+}
+
+.navbar ul li{
+    display: inline;
+    
+}
+.form{
+    color: black;
+}
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 5px;
+    /* background-image: linear-gradient(#004AAD); */
+    /* background-color: #4EAAFF; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    background-color: #4EAAFF;
+     border-radius: 20px;     
+}
+
+.myself{
+    margin-top: 200px;
+    padding: 50px;
+    font-size: 30px;
+}
+.myself span{
+    color: #4EAAFF;
+}
+
+.a1{
+    margin: 20px;
+    margin-bottom: 150px;
+}
+
+.pphoto{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -100px;
+    
+}
+
+.pphoto img{
+    border: solid white 8px;  
+    border-radius: 50%;
+    height: 200px;
+    text-align: center;
+    margin-top: -150px;
+    border: ;
+}
+.about h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;
+}
+.about p{
+    font-size: 30px;
+    text-align: center;
+    flex: center;
+}
+.about{
+    padding: 50px;
+    float: center;
+    margin: 10px 100px 10px 100px;
+    align-content: center;  
+}
+.services h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;  
+}
+.services>h1>u{
+    border-radius: 5px;
+    color: #4EAAFF;
+    padding: 10px;
+    background-color: white;
+}
+.services>h1>u:hover{
+    background-color: crimson;
+    color: white;
+}
+.services p{
+    font-size: 30px;
+    text-align: center;
+    flex: center;
+}
+.services{
+    padding: 50px;
+    float: center;
+    margin: 10px 100px 10px 100px;
+    align-content: center;  
+}
+
+.serv-content{
+    text-align: center;
+}
+.text{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.card{
+    padding: 50px;
+}
